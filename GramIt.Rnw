@@ -60,12 +60,7 @@
 
 <<echo=FALSE>>=
 library(tidyverse)
-library(lubridate)
-library(zoo)
 library(broom)
-library(forecast)
-library(gridExtra)
-library(quantmod)
 @
 
 % Setting the ggplot theme:
@@ -93,11 +88,11 @@ JT.theme <- theme(panel.border = element_rect(fill = NA, colour = "gray10"),
 
 \mainmatter
 
-\chapter{Sostantivi}
+\chapter{Sostantivi - Zelfstandige naamwoorden}\index{sostantivi}\index{zelfstandige naamwoorden}
 
-\section{Genere, singolare e plurale}
+\section{Genere, singolare e plurale - Geslacht, enkelvoud en meervoud}\index{genere}\index{geslacht!zelfstandige naamwoorden}\index{genere!sostantivi}\index{singolare!sostantivi}\index{enkelvoud!zelfstandige naamwoorden}\index{plurale!sostantivi}\index{meervoud!zelfstandige naamwoorden}
 
-\subsection{Generalmente sono \emph{femminili}: i sostantivi}
+\subsection{Generalmente sono \emph{femminili}: i sostantivi}\index{sostantivi:femmminili}\index{vrouwelijk!zelfstandige naamwoorden}
 
 \begin{itemize}
 	\item in \textbf{-a}. Plurale in \textbf{-e}. Esempio: penn\textbf{a}/penn\textbf{e}
@@ -106,10 +101,10 @@ JT.theme <- theme(panel.border = element_rect(fill = NA, colour = "gray10"),
 	    \item che indicano \emph{donne}. Esempio: madr\textbf{e}/madr\textbf{i}
 	    \item in \textbf{-zione}, \textbf{-sione}, \textbf{-gione}. Esempi: sta\textbf{zione}/sta\textbf{zioni}, televi\textbf{sione}/televi\textbf{sioni}, sta\textbf{gione}/sta\textbf{gioni}.
     \end{itemize}
-  \item in \textbf{-t\`{a}} e in \textbf{-t\`{u}}. Plurale in \emph{invariabile}. Esempio: citt\textbf{\`{a}}/citt\textbf{\`{a}}, virt\textbf{\`{u}}/virt\textbf{\`{u}}
+  \item in \textbf{-t\`{a}} e in \textbf{-t\`{u}}. Plurale \emph{invariabile}. Esempio: citt\textbf{\`{a}}/citt\textbf{\`{a}}, virt\textbf{\`{u}}/virt\textbf{\`{u}}
 \end{itemize}
 
-Eccezioni: i sostantivi
+\newthought{Eccezioni}: i sostantivi
 \begin{itemize}
 	\item in \textbf{-o}. 
 	  \begin{itemize}
@@ -117,9 +112,15 @@ Eccezioni: i sostantivi
 	    \item con plurale \emph{invariabile}. Lista: radi\textbf{-o}, mot\textbf{-o}, fot\textbf{-o}, aut\textbf{-o}
     \end{itemize}
 	\item in \textbf{-si}. Plurale \emph{invariabile}. Lista: cri\textbf{si}, anali\textbf{si}, te\textbf{si}
+	\item in \textbf{-ca} e \textbf{-ga}. Plurale hanno una \textbf{-h}. Esempio: ami\textbf{ca}/ami\textbf{che}, colle\textbf{ga}/colle\textbf{ghe}
+	\item in \textbf{-cia} e \textbf{-gia} se preceduti da
+	  \begin{itemize}
+	    \item consonante perdono la \textbf{-i} al plurale. Esempio: ara\textbf{\underline{n}cia}/ara\textbf{\underline{n}ce}
+	    \item vocale mantengono la \textbf{-i} al plurale. Esempio: cam\textbf{\underline{i}cia}/cam\textbf{\underline{i}cie}
+    \end{itemize}
 \end{itemize}
 
-\subsection{Generalmente sono \emph{maschili}: i sostantivi}
+\subsection{Generalmente sono \emph{maschili}: i sostantivi}\index{sostantivi:maschili}\index{mannelijk!zelfstandige naamwoorden}
 
 \begin{itemize}
 	\item in \textbf{-o}. Plurale in \textbf{-i}. Esempio: libr\textbf{o}/libr\textbf{i}
@@ -128,55 +129,75 @@ Eccezioni: i sostantivi
 	    \item che indicano \emph{uomini}. Esempio: padr\textbf{e}/padr\textbf{i}
 	    \item in \textbf{-ore}. Esempi: fi\textbf{ore}/fi\textbf{ori}
     \end{itemize}
-  \item stranieri finiscono in consonante. Plurale \emph{invariabile}. Esempio: autobu\textbf{s}, comput\textbf{r}, ba\textbf{r}, yogur\textbf{t}
+  \item stranieri finiscono in consonante. Plurale \emph{invariabile}. Esempio: autobu\textbf{s}, compute\textbf{r}, ba\textbf{r}, yogur\textbf{t}
 \end{itemize}
 
-Eccezioni: i sostantivi
+\newthought{Eccezioni}: i sostantivi
 \begin{itemize}
+  \item in \textbf{-io}. Plurale in \textbf{-i}. Esempio: orolog\textbf{io}/orolog\textbf{i}
 	\item in \textbf{-a}. Plurale in \textbf{-i}: problem\textbf{a}/problem\textbf{i}, poet\textbf{a}/poet\textbf{i} 
 	\item in \textbf{-co} e in \textbf{-go}. 
 	  \begin{itemize}
-	    \item Plurale in \textbf{-chi} en in \textbf{-ghi}. Lista: tedes\textbf{co}/tedes\textbf{chi}, alber\textbf{go}/alber\textbf{ghi}
-	    \item Plurale in \textbf{-ci} en in \textbf{-gi}. Lista: ami\textbf{co}/ami\textbf{ci}, psicolo\textbf{go}/psicolo\textbf{gi}
+	    \item plurale in \textbf{-chi} en in \textbf{-ghi}. Lista: tedes\textbf{co}/tedes\textbf{chi}, alber\textbf{go}/alber\textbf{ghi}
+	    \item plurale in \textbf{-ci} en in \textbf{-gi}. Lista: ami\textbf{co}/ami\textbf{ci}, psicolo\textbf{go}/psicolo\textbf{gi}
     \end{itemize}
 \end{itemize}
 
-\section{Forme singolare e plurale}
-\subsection{Sostantivi in \textbf{-o} e in \textbf{-a}}
+\subsection{Straordinario}
 
-Generalmente:
-
-\begin{tabular}{l l c l l}
-  tipo & genere & plurale & esempio singolare & esempio plurale \\
-  \hline \\
-  sostantivi in \textbf{-o} & maschili & \textbf{-i} & libro & libri\\
-  sostantivi in \textbf{-a} & femminili & \textbf{-e} & penna & penne
-\end{tabular}
-
-\subsection{Sostantivi in \textbf{-e}}
-
-Generalmente:
-
-\begin{tabular}{l l c l l}
-  tipo & genere & plurale & esempio singolare & esempio plurale \\
-  \hline \\
-  sostantivi in \textbf{-e} & maschili o femminili & \textbf{-i} & ristorante & ristoranti
-\end{tabular}
-
-Generalmente sono \emph{maschili}: i sostantivi in \textbf{-e}
 \begin{itemize}
-	\item che indicano \textbf{uomini}: padr\textbf{e}/padri, cameriere/camerieri
-	\item in \textbf{-ore}: fior\textbf{e}/fiori
+  \item mano/mani \emph{femminile}!
+  \item uomo/uomi\textbf{ni}
+  \item singolare=maschile, plurale=femminile
+    \begin{itemize}
+	    \item parti del corpo: Esempio: bracci\textbf{o}/bracci\textbf{a}, dit\textbf{o}/dit\textbf{a}, labbr\textbf{o}/labbr\textbf{a}
+	    \item uov\textbf{o} (maschile)/uov\textbf{a} (femminile)
+    \end{itemize}
+  \item i sostantivi in \textbf{-ista} possono essere maschili e femminili! Plurale in \textbf{-i} se maschile, in \textbf{-e} se femminile. Esempio: art\textbf{ista}/artist\textbf{i} o artist\textbf{e}
 \end{itemize}
 
-Generalmente sono \emph{femminili}: i sostantivi in \textbf{-e}
-\begin{itemize}
-	\item che indicano \textbf{donne}: madr\textbf{e}/madri, mogli\textbf{e}/mogli
-	\item in \textbf{-zione}, \textbf{-sione}, \textbf{-gione}: stazion\textbf{e}/stazioni, television\textbf{e}/televisioni, stagion\textbf{e}/stagioni
-\end{itemize}
+\chapter{Aggettivi e pronomi dimostrativi - Aanwijzende voornaamwoorden}\index{aggettivi dimostrativi}\index{pronomi dimostrativi}\index{aanwijzende voornaamwoorden}
 
-\subsection{Altri sostantivi}
+I \emph{dimostrativi} servono a mostrare, a indicare, la posizione (\emph{vicino} o \emph{lontano}) in cui si trova qualcosa rispetto a chi parla. Quando accompagnano un nome, sono \emph{aggettivi} demostrativi. Quando sostituiscono un nome, sono \emph{pronomi} dimostrativi.
 
+\fbox{
+  \parbox{\textwidth}{
+Esempio: 
+\medskip
+\textbf{Questo} libro \`{e} molto noioso. Per favore, dammi \textbf{quello}.
+\medskip
+\emph{Questo} libro: ''questo" \`{e} aggettivo dimostrativo, accompagna ''libro" 
+\emph{quello}: ''quello" \`{e} pronome dimostrativo, sostituisce ''libro"
+  }
+}
+
+
+I \emph{pronomi} dimostrativi sono
+
+\begin{tabular}{l l l l}
+vicino o lontano & genere & singolare & plurale \\
+\hline
+vicino & maschile & questo & questi \\
+ & femminile & questa & queste \\
+\hline
+lontano & maschile & quello & quelli \\
+ & femminile & quella & quelle
+\end{tabular}
+
+I \emph{aggettivi} dimostrativi dipendono del sostativo!
+
+\begin{tabular}{l l l l}
+vicino o lontano & genere & singolare & plurale \\
+\hline
+vicino & maschile & questo & questi \\
+ & femminile & questa & queste \\
+\hline
+lontano & maschile & quel & quei \\
+ & & quello & quegli \\
+ & & quell' & quegli \\
+ & femminile & quella & quelle \\
+ & & quell' & quelle
+\end{tabular}
 
 
 
