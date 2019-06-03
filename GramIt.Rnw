@@ -88,20 +88,39 @@ JT.theme <- theme(panel.border = element_rect(fill = NA, colour = "gray10"),
 
 \mainmatter
 
+\chapter{Inleiding}
+
+Ik heb nood aan een \emph{grammatica} van de Italiaanse taal. 
+
+Ik ben gestart met het leren van Italiaans door gebruik te maken van de app ''Duolingo". Die zit zeer behoorlijk in elkaar, met spelelementen die aanzetten tot volhouden, regelmatige wijzigingen die de app interessant houden enz. Maar de basisfilosofie is dezelfde gebleven: je leert een taal als op moeders' schoot. Je krijgt geen uitleg, geen context: enkel juist of fout (met dan de juiste versie). Dat gebeurt zeer geleidelijk zodat het, zeker in het begin, niet storend is. Maar dat betekent ook dat je, zoals een kind, intern structuren begint op te bouwen. En waar een kind nog geen weet heeft van het bestaan van de eerste persoon enkelvoud, heeft een wat oudere leerling (wiens taalonderwijs beperkt is tot het secundair onderwijs) hier wel kennis van. 
+
+Het voordeel van in dat secundair onderwijs, ook al geconfronteerd te zijn met vier talen (Nederlands, Frans, Engels, Duits) maakt dat het totaalbegrip \emph{grammatica} ook bekend is, en de wetenschap dat talen zowel verschillend als gelijkend zijn. De vier opgesomde talen kennen allemaal vervoegingen, maar niet allemaal verbuigingen (of toch niet in het dagelijkse taalgebruik). Het nadeel van het grammaticaonderwijs is de herinnering dat dit eigenlijk een boek is met de spelregels voor het gebruik van de taal. Maar in tegenstelling tot de spelregels van schaak of Monopoly gaat het dikwijls over regels die eigenlijk geen regels zijn omdat ze starten met het woord ''Meestal". Dan volgen er opsommingen van uitzonderingen. Dat kan mij ergeren, maar ik weet ook dat een taal een zeer oude en tegelijk zeer jonge structuur is, die voortdurend verandert. De ''regels" kwamen na de taal (behalve misschien bij Esperanto?) en die regels proberen zo goed en zo kwaad, maar meestal na de feiten, structuur aan te brengen.
+
+Ik kan moeilijk vlot werken wanneer een ''regel" te veel uitzonderingen kent. Ik kan dat gewoon niet allemaal onthouden. Bij het lezen kan je nog iets opzoeken, bij luisteren kan je proberen om de grote lijn te volgen als de nuance je ontgaat, maar bij spreken moet het naturel uit de mond vloeien. Op dat moment kan in mijn achterhoofd misschien nog snel een oppervlakkige analyse gebeuren, maar een ge\-spartel door alle uitzonderingen is er teveel aan.
+
+Daar is een oplossing voor en onze moedertaal toont dat aan. Zelden zal een Nederlandstalige spreker voortdurend grammaticaal graafwerk doen terwijl zij spreekt. Het komt er automatisch uit, en dat automatisme is het gevolg van voortdurende training. Overal klinkt de taal en we nemen er de juiste, en vaak ook de onjuiste, meerderheidstrend van over. Maar het gaat hier wel over (met wat overdrijving) 8 uur per dag, 365,2425 dagen per jaar. Na 65 jaar binnen een praatgrage familie komt dit op ongeveer 190.000 uren met voortdurend expliciete of impliciete correctie. Mijn Duolingo ijver is momenteel beperkt tot ongeveer 700 uren. Mijn lessen Italiaans tot 120 uren.
+
+Dus moeten we hulpmiddelen gebruiken. Een grammatica is er \'{e}\'{e}n van, en daarom volg ik sinds twee jaar Italiaanse les. Maar ik erger mij aan de grammaticaboeken die beschikbaar zijn: te veel kleuren, te veel kaders, te veel in vetjes, te veel tekeningen, te weinig structuur. Inhoudsopgave en index zijn te beperkt of afwezig. Je vindt dus zelden datgene waar je naar op zoek bent. Dus schrijf ik er zelf \'{e}\'{e}n. De ervaring leert dat het een intensieve maar effici\"{e}nte manier is om iets te leren. 
+
+Maar zoals gezegd: het wordt snel een ondoordringbaar kluwen met vele uitzonderingen. Daarom heb ik het voornemen me te beperken tot de grote lijnen (''Meestal zijn de zelfstandige naamwoorden die eindigen op -o mannelijk") met alle wazigheid die daarbij hoort. De rest moet dan maar geleerd worden totdat het een automatisme wordt. Hiervoor zijn geen 190.000 uren meer nodig. De theorie achter de \emph{Leitner-box} die praktisch omgezet wordt door apps zoals Anki geven de mogelijkheid om op korte termijn automatismen op te bouwen: het is \emph{il programma} niettegenstaande programma eindigt op een -a. Waarom? Daarom. Deze laatste paragraaf is wellicht niet populair, maar ze werkt. De populaire versie dat je ''het moet aanvoelen" is juist als je nog 190.000 uren in voorraad hebt en omringd bent door personen die je voortdurend in het Italiaans bijsturen. Die heb ik niet, dus leve Anki!
+
+In de tekst verwijs ik naar de Nederlandstalige equivalente grammaticale woordenschat en de index verwijst zowel naar de Italiaanse als de Nederlandse termen.
+
 \chapter{Sostantivi - Zelfstandige naamwoorden}\index{sostantivi}\index{zelfstandige naamwoorden}
 
 \section{Genere, singolare e plurale - Geslacht, enkelvoud en meervoud}\index{genere}\index{geslacht!zelfstandige naamwoorden}\index{genere!sostantivi}\index{singolare!sostantivi}\index{enkelvoud!zelfstandige naamwoorden}\index{plurale!sostantivi}\index{meervoud!zelfstandige naamwoorden}
 
-\subsection{Generalmente sono \emph{femminili}: i sostantivi}\index{sostantivi:femmminili}\index{vrouwelijk!zelfstandige naamwoorden}
+\subsection{\textbf{Generalmente} sono \emph{femminili}: i sostantivi}\index{sostantivi:femmminili}\index{vrouwelijk!zelfstandige naamwoorden}
 
 \begin{itemize}
 	\item in \textbf{-a}. Plurale in \textbf{-e}. Esempio: penn\textbf{a}/penn\textbf{e}
+	\item in \textbf{-si}. Plurale in \textbf{-i}. Esempio: cris\textbf{i}/cris\textbf{i}
 	\item in \textbf{-e}. Plurale in \textbf{-i}. 
 	  \begin{itemize}
 	    \item che indicano \emph{donne}. Esempio: madr\textbf{e}/madr\textbf{i}
 	    \item in \textbf{-zione}, \textbf{-sione}, \textbf{-gione}. Esempi: sta\textbf{zione}/sta\textbf{zioni}, televi\textbf{sione}/televi\textbf{sioni}, sta\textbf{gione}/sta\textbf{gioni}.
     \end{itemize}
-  \item in \textbf{-t\`{a}} e in \textbf{-t\`{u}}. Plurale \emph{invariabile}. Esempio: citt\textbf{\`{a}}/citt\textbf{\`{a}}, virt\textbf{\`{u}}/virt\textbf{\`{u}}
+  \item in \textbf{-t\`{a}} e in \textbf{-t\`{u}}. Plurale \emph{invariabile}. Esempi: citt\textbf{\`{a}}/citt\textbf{\`{a}}, virt\textbf{\`{u}}/virt\textbf{\`{u}}
 \end{itemize}
 
 \newthought{Eccezioni}: i sostantivi
@@ -109,10 +128,9 @@ JT.theme <- theme(panel.border = element_rect(fill = NA, colour = "gray10"),
 	\item in \textbf{-o}. 
 	  \begin{itemize}
 	    \item con plurale in \textbf{-i}: man\textbf{o}/man\textbf{i}
-	    \item con plurale \emph{invariabile}. Lista: radi\textbf{-o}, mot\textbf{-o}, fot\textbf{-o}, aut\textbf{-o}
+	    \item con plurale \emph{invariabile}. Esempi: radi\textbf{-o}, mot\textbf{-o}, fot\textbf{-o}, aut\textbf{-o}
     \end{itemize}
-	\item in \textbf{-si}. Plurale \emph{invariabile}. Lista: cri\textbf{si}, anali\textbf{si}, te\textbf{si}
-	\item in \textbf{-ca} e \textbf{-ga}. Plurale hanno una \textbf{-h}. Esempio: ami\textbf{ca}/ami\textbf{che}, colle\textbf{ga}/colle\textbf{ghe}
+	\item in \textbf{-ca} e \textbf{-ga}. Plurale hanno una \textbf{-h}. Esempi: ami\textbf{ca}/ami\textbf{che}, colle\textbf{ga}/colle\textbf{ghe}
 	\item in \textbf{-cia} e \textbf{-gia} se preceduti da
 	  \begin{itemize}
 	    \item consonante perdono la \textbf{-i} al plurale. Esempio: ara\textbf{\underline{n}cia}/ara\textbf{\underline{n}ce}
@@ -120,26 +138,26 @@ JT.theme <- theme(panel.border = element_rect(fill = NA, colour = "gray10"),
     \end{itemize}
 \end{itemize}
 
-\subsection{Generalmente sono \emph{maschili}: i sostantivi}\index{sostantivi:maschili}\index{mannelijk!zelfstandige naamwoorden}
+\subsection{\textbf{Generalmente} sono \emph{maschili}: i sostantivi}\index{sostantivi:maschili}\index{mannelijk!zelfstandige naamwoorden}
 
 \begin{itemize}
 	\item in \textbf{-o}. Plurale in \textbf{-i}. Esempio: libr\textbf{o}/libr\textbf{i}
 	\item in \textbf{-e}. Plurale in \textbf{-i}. 
 	  \begin{itemize}
 	    \item che indicano \emph{uomini}. Esempio: padr\textbf{e}/padr\textbf{i}
-	    \item in \textbf{-ore}. Esempi: fi\textbf{ore}/fi\textbf{ori}
+	    \item in \textbf{-ore}. Esempio: fi\textbf{ore}/fi\textbf{ori}
     \end{itemize}
-  \item stranieri finiscono in consonante. Plurale \emph{invariabile}. Esempio: autobu\textbf{s}, compute\textbf{r}, ba\textbf{r}, yogur\textbf{t}
+  \item stranieri finiscono in consonante. Plurale \emph{invariabile}. Esempi: autobu\textbf{s}, compute\textbf{r}, ba\textbf{r}, yogur\textbf{t}
 \end{itemize}
 
 \newthought{Eccezioni}: i sostantivi
 \begin{itemize}
   \item in \textbf{-io}. Plurale in \textbf{-i}. Esempio: orolog\textbf{io}/orolog\textbf{i}
-	\item in \textbf{-a}. Plurale in \textbf{-i}: problem\textbf{a}/problem\textbf{i}, poet\textbf{a}/poet\textbf{i} 
+	\item in \textbf{-a}. Plurale in \textbf{-i}: Esempi: problem\textbf{a}/problem\textbf{i}, poet\textbf{a}/poet\textbf{i} 
 	\item in \textbf{-co} e in \textbf{-go}. 
 	  \begin{itemize}
-	    \item plurale in \textbf{-chi} en in \textbf{-ghi}. Lista: tedes\textbf{co}/tedes\textbf{chi}, alber\textbf{go}/alber\textbf{ghi}
-	    \item plurale in \textbf{-ci} en in \textbf{-gi}. Lista: ami\textbf{co}/ami\textbf{ci}, psicolo\textbf{go}/psicolo\textbf{gi}
+	    \item plurale in \textbf{-chi} en in \textbf{-ghi}. Esempi: tedes\textbf{co}/tedes\textbf{chi}, alber\textbf{go}/alber\textbf{ghi}
+	    \item plurale in \textbf{-ci} en in \textbf{-gi}. Esempi: ami\textbf{co}/ami\textbf{ci}, psicolo\textbf{go}/psicolo\textbf{gi}
     \end{itemize}
 \end{itemize}
 
@@ -150,11 +168,96 @@ JT.theme <- theme(panel.border = element_rect(fill = NA, colour = "gray10"),
   \item uomo/uomi\textbf{ni}
   \item singolare=maschile, plurale=femminile
     \begin{itemize}
-	    \item parti del corpo: Esempio: bracci\textbf{o}/bracci\textbf{a}, dit\textbf{o}/dit\textbf{a}, labbr\textbf{o}/labbr\textbf{a}
+	    \item parti del corpo: Esempi: bracci\textbf{o}/bracci\textbf{a}, dit\textbf{o}/dit\textbf{a}, labbr\textbf{o}/labbr\textbf{a}
 	    \item uov\textbf{o} (maschile)/uov\textbf{a} (femminile)
     \end{itemize}
-  \item i sostantivi in \textbf{-ista} possono essere maschili e femminili! Plurale in \textbf{-i} se maschile, in \textbf{-e} se femminile. Esempio: art\textbf{ista}/artist\textbf{i} o artist\textbf{e}
+  \item i sostantivi in \textbf{-ista} possono essere maschili e femminili! Plurale in \textbf{-i} se maschile, in \textbf{-e} se femminile. Esempi: art\textbf{ista}/artist\textbf{i} o artist\textbf{e}
 \end{itemize}
+
+\chapter{Articoli - Lidwoorden}\index{articolo}\index{lidwoord}
+
+\section{Articolo indeterminativo - onbepaald lidwoord}\index{articolo!indeterminativo}\index{lidwoord!onbepaald}
+
+\begin{tabular}{l l l l}
+sostantivi femminili & cominciando con & articolo & esempio \\
+\hline
+ & consonante & \textbf{una} & una donna  \\
+\hline
+ & vocale & \textbf{un'} & un' amica  \\
+\hline 
+  & & & \\
+ & & & \\
+sostantivi maschili & cominciando con & articolo & esempio \\
+\hline
+ &  consonante o vocale & \textbf{un} & un sogno / un amico  \\
+\hline
+ &  s + consonante & \textbf{uno} & uno sport  \\
+ &  x, y, z & \textbf{uno} & uno zaino  \\
+ &  gn, pn, ps & \textbf{uno} & uno gnocco  \\
+\hline
+\end{tabular}
+
+\section{Articolo determinativo - bepaald lidwoord}\index{articolo!determinativo}\index{lidwoord!bepaald}
+
+\begin{tabular}{l l l l l l}
+sostantivi femminili & cominciando con & articolo & esempio & plurale & esempio \\
+\hline
+ & consonante & \textbf{la} & la donna & \textbf{le} & le donne\\
+\hline
+ & vocale & \textbf{l'} & l' amica  & \textbf{le} & le amiche\\
+\hline
+  & & & & &\\
+ & & & & & \\
+sostantivi maschili & cominciando con & articolo & esempio  & plurale & esempio \\
+\hline
+ &  consonante & \textbf{il} & il sogno & \textbf{i} & i sogni\\
+ \hline
+ & vocale & \textbf{l'} & l' amico  & \textbf{gli} & gli amici\\
+\hline
+ &  s + consonante & \textbf{lo} & lo sport  & \textbf{gli} & gli sport\\
+ &  x, y, z & \textbf{lo} & lo zaino  & \textbf{gli} & gli zaini\\
+ &  gn, pn, ps & \textbf{lo} & lo gnocco  & \textbf{gli} & gli gnocchi\\
+\hline
+\end{tabular}
+
+\chapter{Aggettivi qualificativi - Bijvoeglijke naamwoorden}\index{aggettivi qualititativi}\index{aggettivi!qualitativi}\index{bijvoeglijke naamwoorden}
+
+Gli aggettivi qualificativi attribuiscono al sostantivo una qualit\`{a}. Gli aggettivi concordano in genere e numero con i nomi a cui si riferiscono. Ci sono due gruppi:
+
+\section{Aggettivi qualititativi - primo gruppo}
+\begin{tabular}{l l l l l}
+  & singolare & plurale & esempio & esempio \\
+\hline
+maschile & -\textbf{o} & -\textbf{i} & l'albergo car\textbf{o} &  gli alberghi car\textbf{i}\\
+femminile & -\textbf{a} & -\textbf{e} & la macchina car\textbf{a} & le macchine car\textbf{e}\\
+\hline
+\end{tabular}
+
+\section{Aggettivi qualititativi - secondo gruppo}
+\begin{tabular}{l l l l l}
+  & singolare & plurale & esempio & esempio \\
+\hline
+maschile/femminile & -\textbf{e} & -\textbf{i} & l'albergo grand\textbf{e} & gli alberghi grand\textbf{i}\\
+\hline
+\end{tabular}
+
+Alcuni aggettivi comuni in -e (secondo gruppo):
+\begin{itemize}
+  \item affascinante
+	\item appassionante
+	\item disponibile
+	\item elegante
+	\item felice
+	\item gentile
+	\item giovane
+	\item grande
+	\item importante
+	\item intelligente
+	\item interessante
+	\item particolare
+	\item semplice
+\end{itemize}
+
 
 \chapter{Aggettivi e pronomi dimostrativi - Aanwijzende voornaamwoorden}\index{aggettivi dimostrativi}\index{pronomi dimostrativi}\index{aanwijzende voornaamwoorden}
 
@@ -166,8 +269,8 @@ Esempio:
 \medskip
 \textbf{Questo} libro \`{e} molto noioso. Per favore, dammi \textbf{quello}.
 \medskip
-\emph{Questo} libro: ''questo" \`{e} aggettivo dimostrativo, accompagna ''libro" 
-\emph{quello}: ''quello" \`{e} pronome dimostrativo, sostituisce ''libro"
+\textbf{Questo} libro: ''questo" \`{e} aggettivo dimostrativo, accompagna ''libro" 
+\textbf{quello}: ''quello" \`{e} pronome dimostrativo, sostituisce ''libro"
   }
 }
 
